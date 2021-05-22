@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+        mavenLocal()
+
+    }
+    ext {
+
+    }
+    dependencies {
+
+    }
+}
+
+
+apply plugin: 'java'
+apply plugin: 'java-library'
+apply plugin: 'maven-publish'
+
+
+configurations {
+    implementation
+}
+
+repositories {
+    mavenLocal()
+}
+
+ext {
+
+}
+
+dependencies {
+
+}
+
+
+
+
+
+
+
