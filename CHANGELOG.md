@@ -1,5 +1,9 @@
 # leet-code - Change Log
 
+## 2021-05-23 [#4  PR]
+### Added
+- Array RemoveDuplicatesFromSortedArray_26 Group 1
+
 ## 2021-05-23 [#3  PR]
 ### Added
 - GitHub Actions
