@@ -4,6 +4,7 @@ import com.leet.code.solutions.array.two_sum_1.Solution;
 import com.leet.code.solutions.array.two_sum_1.Solution1;
 import com.leet.code.solutions.array.two_sum_1.Solution2;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 class TwoSumTest {
 
@@ -21,12 +22,12 @@ class TwoSumTest {
     int arr4[] = new int[]{17, 4, 5, 9, 11};
     int target4 = 28;
 
-    @org.junit.jupiter.api.Test
+    @Test
     void testSolution1() {
         assertResult(new Solution1());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void testSolution2() {
         assertResult(new Solution2());
     }
