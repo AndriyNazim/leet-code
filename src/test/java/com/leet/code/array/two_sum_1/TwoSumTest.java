@@ -1,11 +1,11 @@
-package com.leet.code.array.TwoSum_1;
+package com.leet.code.array.two_sum_1;
 
-import com.leet.code.solutions.array.TwoSum_1.Solution;
-import com.leet.code.solutions.array.TwoSum_1.Solution1;
-import com.leet.code.solutions.array.TwoSum_1.Solution2;
+import com.leet.code.solutions.array.two_sum_1.Solution;
+import com.leet.code.solutions.array.two_sum_1.Solution1;
+import com.leet.code.solutions.array.two_sum_1.Solution2;
 import org.junit.jupiter.api.Assertions;
 
-public class Test {
+class TwoSumTest {
 
     int arr1[] = new int[]{2, 7, 11, 15};
     int target1 = 9;
@@ -22,12 +22,12 @@ public class Test {
     int target4 = 28;
 
     @org.junit.jupiter.api.Test
-    public void testSolution1() {
+    void testSolution1() {
         assertResult(new Solution1());
     }
 
     @org.junit.jupiter.api.Test
-    public void testSolution2() {
+    void testSolution2() {
         assertResult(new Solution2());
     }
 
