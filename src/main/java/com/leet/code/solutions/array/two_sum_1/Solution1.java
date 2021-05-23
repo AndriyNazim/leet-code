@@ -1,4 +1,4 @@
-package com.leet.code.solutions.array.TwoSum_1;
+package com.leet.code.solutions.array.two_sum_1;
 
 public class Solution1 implements Solution {
 
